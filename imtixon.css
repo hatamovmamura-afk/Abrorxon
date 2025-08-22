@@ -1,0 +1,36 @@
+.class{
+    background-color: rgb(12, 125, 12);
+}
+.pencil{
+    color: white;
+    text-align: center;
+}
+.box{
+    text-align: center;
+}
+.div{
+    color: white;
+    text-align: center;
+}
+.text{
+    background-color: rgb(210, 227, 227);
+}
+.apple{
+    color: white;
+    background-color: green;
+}
+.karate{
+    border-radius: 7px;
+}
+table,td,th{
+    border: 2px solid rgb(138, 135, 135);
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+.edit{
+    text-align: start;
+}
+.offis{
+    background-color: rgb(169, 171, 166);
+}
