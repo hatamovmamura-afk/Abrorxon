@@ -1,259 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
 }
 
-
 body {
-    font-family: "Mulish", sans-serif;
+    background-color: rgb(230, 96, 55);
+    font-family: "Inter", sans-serif;
 }
 
 .container {
-    width: 1179px;
+    width: 1100px;
     margin: auto;
 }
 
-.best {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 45px 0;
-}
-
-.text {
-    width: 300px;
-}
-
-.text h1 {
-    font-size: 34px;
-}
-
-.right .bmw {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.bmw li a:hover {
-    color: black;
-
-}
-
-.right .bmw ul li a {
-    color: gray
-}
-
-.today {
+h1 {
     color: white;
-    background: #458FF6;
-    border-radius: 55px;
-    padding: 11px 30px;
-}
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.services {
     text-align: center;
-    margin: 91px 0;
-
 }
 
-.boom__dad {
-
-    width: 230px;
+span {
+    color: yellow;
 }
 
-.boom__dad:hover {
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 .a {
+    font-weight: 600px;
+    font-size: 15px;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.box {
     color: white;
-}
-
-.text__serves p {
-    color: #7D7987;
-
-}
-
-.p1 {
-    font-size: 20px;
-    width: 440px;
-    color: #7D7987;
-    margin: 26px 0 36px;
-}
-
-.services p {
-    color: #666;
-    max-width: 750px;
-    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.cards:hover {
-    color: white;
-    background-color: blue;
-
-}
-
-.cards {
-    width: 380px;
-    background-color: gray;
-    border-radius: 20px;
+.card {
+    width: 300px;
     margin-bottom: 20px;
-
+    background-color: black;
 }
 
-.learn {
-    padding: 10px 25px;
-    border: 2px solid blue;
-    border-radius: 50px;
-    background-color: #fff;
-    color: #4da6ff;
-    font-size: 16px;
-
+.box {
+    font-size: 15x;
 }
 
-.container .provide__text {
-    margin-top: 61px;
-    margin-bottom: 31px;
-}
-
-.more__info {
-    margin-bottom: 75px;
-    text-align: center;
-    font-size: 27px;
-}
-
-.now__more {
-    display: flex;
-    font-size: 27px;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.p3 {
-    width: 414px;
-    color: #7D7987;
-    font-size: 18px;
-    margin-top: 62px;
-
-}
-
-.healthcare {
-    display: flex;
-    align-items: center;
-}
-
-.healthcare img {
-    margin-bottom: 30px;
-    margin-right: 117px;
-
-}
-
-.more__rime {
-    margin-top: 41px;
-    padding: 10px 25px;
-    border: 2px solid blue;
-    border-radius: 50px;
-    background-color: #fff;
-    color: #4da6ff;
-    font-size: 16px;
-}
-
-.check {
-    background-color: rgb(222, 214, 214);
-    width: 380px;
-    height: 504;
-
-}
-
-.out {
-    margin-top: 140px;
-    margin-bottom: 109px;
+.box2 {
+    color: white;
+    font-size: 23px;
     text-align: center;
 }
 
-.red__delect {
-    width: 380;
-    height: 504;
-
-
-}
-
-.family {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.p4 {
-    margin-top: 18px;
-    width: 302px;
-    margin-bottom: 18px;
-    color: #7D7987;
-}
-
-.more__time {
-    margin-left: 500px;
-    margin-top: 41px;
-    margin-bottom: 230px;
-    padding: 10px 44px;
-    border: 2px solid blue;
-    border-radius: 50px;
-    background: #fff8f8;
-    color: #4da6ff;
-}
-
-.footer {
-    width: 1600px;
-    height: 432px;
-    background-color: blue;
-}
-
-.p5 {
+.box3 {
     color: white;
-    width: 410px;
+    font-size: 23px;
+    text-align: center;
 }
 
-.who {
-    color: white;
-}
-
-.phone {
+.div {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-.more__font {
-    margin-top: 30px;
-    padding: 10px 25px;
-    border: 2px solid blue;
-    border-radius: 50px;
-    background-color: #fff;
-    color: #4da6ff;
-    font-size: 16px;
-}
-.footer__wrapper{
+
+.best {
+    gap: 5%;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
-.milion{
-    display: flex;
-    justify-content: space-between;
-    gap: 170px;
+.book {
+    gap: 5%;
+}
+
+.cars {
+    gap: 5%;
 }

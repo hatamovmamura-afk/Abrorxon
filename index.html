@@ -5,249 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <nav class="best">
-                <div class="left">
-                    <img src="./img/logo.svg" alt="">
-                </div>
-                <div class="right">
-                    <ul class="bmw">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Find a doctor</a></li>
-                        <li><a href="#">Apps</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">About us</a></li>
-                    </ul>
-                </div>
+<body class="body">
+    <div class="container">
+        <h1><span>CANTAINER</span> AND FLEXBOX</h1>
 
-            </nav>
+        <div class="main">
+            <h2>Logo</h2>
+            <a href="">Justify-content:space-between</a>
+            <a href="">Justify-content:space-around</a>
+            <a href="">Justify-content:space-evenly</a>
         </div>
-    </header>
-
-
-    <main>
-
-        <section>
-            <div class="container">
-                <div class="hero">
-                    <div class="money">
-                        <h1>Virtual healthcare for you</h1>
-                        <p class="p1">Trafalgar provides progressive, and affordable healthcare, accessible on mobile
-                            and
-                            online for everyone</p>
-                        <button class="today">Consult today</button>
-                    </div>
-
-                    <div class="image">
-                        <img src="./img/doctor.png" alt="img">
-                    </div>
-                </div>
+        <div class="div">
+            <div class="card">
+                <img width="300px" height="140px" src="./res.png" alt="">
+                <p class="box2"><b>Flexbox</b></p>
+                <p class="box">Flexbox — container’ni joylashtirishda muhim vosita hisoblanib, uning yordamida bir
+                    nechta qulayliklarga ega bo’lishimiz mumkin</p>
+            </div>
+            <div class="card">
+                <img width="300px" height="140px" src="./blue.png" alt="">
+                <p class="box3"><b>Container</b></p>
+                <p class="box">CSS konteynerlari bir xil shrift rangi, fon rangi, shrift o'lchami, shrift oilasi va
+                    boshqa xususiyatlarga ega bo'lgan tarkibni guruhlash uchun ishlatiladi.</p>
             </div>
 
-        </section>
-
-
-        <section class="services">
-            <div class="container">
-                <h2>Our services</h2>
-                <p class="provide__text">
-                    We provide to you the best choices for you. Adjust it to your health needs
-                    and make sure you undergo treatment with our highly qualified doctors you
-                    can consult with us which type of service is suitable for your health
+            <div class="card">
+                <img width="300px" height="140px" src="./pink.png" alt="">
+                <p class="box3"><b>space-evenly</b></p>
+                <p class="box">space-evenly -- barcha asosiy elementlarni teng ravishda bo'sh joylashtiradi barcha
+                    bo'sh joy har bir yordamchi element atrofida chap va o'ng bo'shliqlarga teng ravishda bo'linadi.
                 </p>
-
-
-                <div class="row">
-                    <div class="cards">
-                        <img src="./img/lupa.svg" alt="lipa">
-                        <h3>Search doctor</h3>
-                        <p class="boom__dad">Choose your doctor from thousands of specialist, general, and trusted
-                            hospitals</p>
-                    </div>
-
-                    <div class="cards">
-                        <img src="./img/apteca.svg" alt="">
-                        <h3>Online pharmacy</h3>
-                        <p class="boom__dad">Buy your medicines with our mobile application with a simple delivery
-                            system
-                        </p>
-                    </div>
-
-                    <div class="cards">
-                        <img src="./img/book.svg" alt="">
-                        <h3>Consultation</h3>
-                        <p class="boom__dad">Free consultation with our trusted doctors and get the best
-                            recomendations
-                        </p>
-                    </div>
-
-                    <div class="cards">
-                        <img src="./img/analiz.svg" alt="">
-                        <h3>Details info</h3>
-                        <p class="boom__dad">Free consultation with our trusted doctors and get the best
-                            recomendations</p>
-                    </div>
-                    <div class="cards">
-                        <img src="./img/box.svg" alt="">
-                        <h3>Emergency care</h3>
-                        <p class="boom__dad">You can get 24/7 urgent care for yourself or your children and your
-                            lovely family</p>
-                    </div>
-                    <div class="cards">
-                        <img src="./img/bonuc.svg" alt="">
-                        <h3>Tracking</h3>
-                        <p class="boom__dad">Track and save your medical history and health data </p>
-                    </div>
-                </div>
             </div>
-            <button class="more__font">Learn more</button>
 
-            <div>
-
+            <div class="card">
+                <img width="300px" height="140px" src="./mers.png" alt="">
+                <p class="box3"><b>space-between</b></p>
+                <p class="box">space-between birinchi elementni butunlay chapga va oxirgi elementni to'liq o'ngga
+                    qo'yadi, qolgan har qanday bo'sh joy qolgan bolalar o'rtasida teng taqsimlanadi.</p>
             </div>
-        </section>
 
-
-
-        <section class="healthcare">
-            <div class="container">
-                <h2 class="more__info">More Info</h2>
-
-                <div class="now__more">
-                    <div class="row__more">
-                        <img src="./img/she.png" alt="">
-                    </div>
-
-                    <div class="row__left">
-                        <h2 class="leading__heal">Leading healthcare providers</h2>
-                        <p class="p3">Trafalgar provides progressive, and affordable healthcare, accessible on mobile
-                            and online for everyone. To us, it’s not just work. We take pride in the solutions we
-                            deliver</p>
-                        <button class="more__rime">Learn more</button>
-                    </div>
-                </div>
+            <div class="card">
+                <img width="300px" height="140px" src="./best.png" alt="">
+                <p class="box3"><b>align-items</b></p>
+                <p class="box">Align-items elementlarni vertical boshqarish imkoniyatini beradi ya’ni y o’qi
+                    bo’yicha elementlarni chapga , o’nga , o’rtaga qo’ysa boladi</p>
             </div>
-        </section>
 
-
-        <section class="red__delect">
-            <div class="container">
-                <h2 class="out">Check out our latest article</h2>
-                <div class="family">
-                    <div class="check">
-                        <img src="./img/polic1.png" alt="">
-                        <h2>Disease detection, check
-                            up in the laboratory</h2>
-                        <p class="p4">In this case, the role of the health laboratory is very important to do
-                            a disease detection...</p>
-                        <a href="check">Read more</a>
-                        <img src="./img/sterlca.svg" alt="">
-                    </div>
-
-                    <div class="check">
-                        <img src="img/polic2.png" alt="">
-                        <h2>Herbal medicines that are
-                            safe for consumption</h2>
-                        <p class="p4">Herbal medicine is very widely used at this time because of its very good for your
-                            health...</p>
-                        <a href="check">Read more</a>
-                        <img src="./img/sterlca.svg" alt="">
-
-                    </div>
-
-                    <div class="check">
-                        <img src="img/polic3.png" alt="">
-                        <h2>Natural care for healthy
-                            facial skin</h2>
-                        <p class="p4">In this case, the role of the health laboratory is very important to do
-                            a disease detection...</p>
-                        <a href="check">Read more</a>
-                        <img src="./img/sterlca.svg" alt="">
-                    </div>
-
-                </div>
-                <button class="more__time">View all</button>
-
-
-
-
-
-
-
-
-
-
-
+            <div class="card">
+                <img width="300px" height="140px" src="./bol.png" alt="">
+                <p class="box3"><b>FlexBox</b></p>
+                <p class="box">Flexbox — container’ni joylashtirishda muhim vosita hisoblanib, uning yordamida bir
+                    nechta qulayliklarga ega bo’lishimiz mumkin</p>
             </div>
-        </section>
 
-
-
-
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__wrapper">
-                <div>
-                    <img src="./img/logo.svg" alt="">
-                    <p class="p5">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and
-                        online
-                        for everyone</p>
-                </div>
-
-
-                <div class="milion">
-                    <div class="who">
-                        <h2>Company</h2>
-                        <p>About</p>
-                        <p>Apps</p>
-
-                    </div>
-
-                    <div class="who">
-                        <h2>Region</h2>
-                        <p>Indonesia</p>
-                        <p>Singapore</p>
-                    </div>
-
-                    <div class="who">
-                        <h2>Region</h2>
-                        <p>Indonesia</p>
-                        <p>Singapore</p>
-                    </div>
-
-                    <div class="who">
-                        <h2>Help</h2>
-                        <p>Help center</p>
-                        <p>Contact support</p>
-                    </div>
-
-                </div>
-
-            </div>
 
         </div>
-
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 </body>
 
 </html>
